@@ -1,0 +1,145 @@
+.inputText{
+  position: relative !important;
+}
+.formControl :global(.MuiInputBase-root) {
+  position: relative !important;
+  background-color: white;
+  border: var(--light-border);
+  border-radius: 4px;
+}
+
+.formControl :global(.MuiInputBase-root.Mui-focused) {
+  box-shadow: var(--form-control-box-shadow);
+  background-color: white;
+}
+
+.formControl :global(.MuiInputLabel-root) {
+  font-weight: 500;
+  color: var(--gray-color);
+}
+
+.formControl :global(.MuiInputBase-input) {
+  color: var(--gray-color);
+}
+
+.formControl :global(.MuiInputBase-input) {
+  color: var(--gray-color);
+}
+
+.formControl :global(.MuiOutlinedInput-notchedOutline) {
+  border: none;
+}
+
+/* Dark theme styles */
+.formControl.dark :global(.MuiInputBase-root) {
+  background-color: var(--background-color);
+  border: var(--dark-border);
+}
+
+.formControl.dark :global(.MuiInputBase-root.Mui-focused) {
+  background-color: var(--secondary-background);
+}
+
+.formControl.dark :global(.MuiInputBase-root.Mui-disabled .MuiInputBase-input) {
+  -webkit-text-fill-color: var(--placeholder-color);
+}
+
+.formControl.dark :global(.MuiInputLabel-root) {
+  color: white;
+}
+
+.formControl.dark :global(.MuiInputBase-input) {
+  color: var(--placeholder-color) !important;
+}
+
+.formControl.dark :global(.MuiSelect-icon) {
+  color: var(--placeholder-color) !important;
+}
+
+
+.menuItem {
+  background-color: white !important;
+  color: var(--gray-color) !important;
+  padding-bottom: 15px !important;
+}
+
+.menuItem:hover {
+  background-color: #eeeeee !important;
+  color: var(--black-color) !important;
+}
+
+.menuItem:global(.Mui-selected) {
+  background-color: #eeeeee !important;
+  color: var(--gray-color) !important;
+  font-weight: 500;
+}
+
+.menuItem:global(.Mui-selected):hover {
+  background: none;
+  color: var(--gray-color) !important;
+
+}
+
+.menuItem.dark {
+  background-color: var(--secondary-background) !important;
+  color: var(--placeholder-color) !important;
+  padding-bottom: 15px !important;
+}
+
+.menuItem.dark:hover {
+  background-color: var(--background-color) !important;
+  color: white !important;
+}
+
+.menuItem.dark:global(.Mui-selected) {
+  background-color: var(--background-color) !important;
+  color: white !important;
+}
+
+.disabledItem ,.disabledItem.dark {
+  color: white !important;
+  background: var(--background-color) !important;
+}
+.helperText {
+  color: var(--red-color) !important;
+  font-size: 12px !important;
+  margin-top: 4px !important;
+  margin-left: 0 !important;
+}
+/* Add new job div */
+.titleHeader {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerBtn {
+  padding: 13px 0;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  width: 220px;
+  font-weight: 700;
+  border: none;
+}
+
+@media (max-width: 576px) {
+  .headerBtn {
+    padding: 10px 15px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .titleHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .titleHeader select {
+    padding: 10px 15px;
+    width: 200px;
+  }
+}

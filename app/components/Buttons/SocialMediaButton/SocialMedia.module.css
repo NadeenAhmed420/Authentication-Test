@@ -1,0 +1,24 @@
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--black-color);
+  font-weight: 500;
+}
+
+@media (max-width:576px) {
+  .link{
+    padding: 8px;
+  }
+  .image{
+    width:20px;
+    height: 20px;
+  }
+} 
