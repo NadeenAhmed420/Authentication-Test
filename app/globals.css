@@ -16,8 +16,6 @@ body {
   --gray-color: #757575;
   --placeholder-color: #adadad;
   --primary-font: var(--font-open-sans);
-  --background-color: #0f172a;
-  --secondary-background: #161f35;
   --form-control-box-shadow: #4175ee7a 0px 1px 1px;
 
   /* ROOT LIGHT MODE */
@@ -26,8 +24,5 @@ body {
     rgba(182, 182, 182, 0.08) 0px 0px 0px 1px;
   --light-border: 1px solid #e9eaec;
 
-  /* ROOT DARK MODE */
-  --dark-box-shadow: rgba(255, 255, 255, 0.205) 0px 1px 1px -1px;
-  --dark-color: #cccaca;
-  --dark-border: 1px solid #8d8d8d80;
+  
 } 

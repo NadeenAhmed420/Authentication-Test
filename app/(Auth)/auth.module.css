@@ -17,9 +17,6 @@
   width: 650px;
 }
 
-.form.dark {
-  background-color: var(--secondary-background);
-}
 
 @media (max-width: 768px) {
   .form {
@@ -82,9 +79,7 @@
 
 
 
-.formControl.dark:focus {
-  border: var(--dark-border);
-}
+
 
 .errorMessage {
   margin: 5px 5px 0 5px;
@@ -93,13 +88,6 @@
   font-weight: 500;
 }
 
-/* .eyeOff,
-.check {
-  position: absolute;
-  top:50%;
-  right:4%;
-  transform: translateY(-50%);
-} */
 
 .span {
   margin: 0 15px 2px;
